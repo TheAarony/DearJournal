@@ -2,6 +2,8 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model List<Code.Models.JournalDb>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-3">
@@ -21,7 +23,14 @@
         <div class="col-lg-12">
             <div>
                 <h4> Journals </h4>
-                <p> No Entries </p>
+                @{
+                    foreach(var journal in Model)
+                    {
+                        <h3> @journal.Title</h3>
+                        <p>@journal.Content</p>
+                    }
+                    } 
+                
             </div>
         </div>
     </div>
