@@ -3,14 +3,20 @@
 }
 <h1>@ViewData["Title"]</h1>
 
+@model Code.Models.JournalDb
 
-<div class="container-lg">
-    <div>
-        <label for="title" class="form-label">Title</label>
-        <input type="text" class="form-control" id="title" placeholder="Title of your journal..">
+<form asp-action="newJournalForm" asp-controller="Home">
+    <div class="container-lg">
+        <div>
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" placeholder="Title of your journal.." asp-for="Title">
+        </div>
+        <div>
+            <label for="content" class="form-label">Content</label>
+            <textarea class="form-control" rows="5" placeholder="Dear Journal..." asp-for="Content"></textarea>
+        </div>
     </div>
-    <div>
-        <label for="content" class="form-label">Content</label>
-        <textarea class="form-control" id="content" rows="5" placeholder="Dear Journal..."></textarea>
+    <div class="container-lg mt-4">
+        <button type="submit" class="btn btn-primary">Submit</button>
     </div>
-</div>
+</form>
