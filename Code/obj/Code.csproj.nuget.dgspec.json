@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj": {}
+    "C:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj": {}
   },
   "projects": {
-    "c:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj": {
+    "C:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj",
+        "projectUniqueName": "C:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj",
         "projectName": "Code",
-        "projectPath": "c:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj",
+        "projectPath": "C:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\Code.csproj",
         "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\obj\\",
+        "outputPath": "C:\\Users\\aaron\\OneDrive\\Documents\\Github\\DearJournal\\Code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config"
